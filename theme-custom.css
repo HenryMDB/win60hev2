@@ -64,3 +64,7 @@
 .another-container .product-img[data-v-d7311a19] {
   display: none !important;
 }
+/* Ẩn .another-item nằm ngay sau .product-img */
+.product-img + .another-item {
+  display: none;
+}
